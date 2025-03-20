@@ -42,7 +42,7 @@ img{
 }
 .container{
     width: 80%;
-    background: rgb(217, 255, 0);
+    background: rgb(87, 88, 80);
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
@@ -62,4 +62,25 @@ table tr td{
 }
 table{
     margin: 0 auto;
+}
+
+.laranja{
+ background-color: rgb(255, 136, 0);
+}
+.preto{
+background-color: black;
+color: white
+}
+.roxa{
+    background-color: purple;
+}
+.verde{
+background-color: green;
+}
+.vermelho{
+    background-color: red;
+}
+.Azul{
+    background-color: navy;
+    color: white;
 }
