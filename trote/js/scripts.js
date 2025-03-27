@@ -1,9 +1,11 @@
 function calcular(){
-    let mascote, homenagem
+    let mascote, homenagem, leite, kit, suplemento, sangue
     mascote = document.getElementById("mascote").value
-    alert(mascote)
     homenagem = document.getElementById("homenagem").value
-    alert(homenagem)
-    let soma = Number(mascote) + Number(homenagem)
-    alert(soma)
-}
+    leite = document.getElementById("leite"). value
+    kit = document.getElementById("kit"). value
+    suplemento = document.getElementById("suplemento"). value
+    sangue = document.getElementById("sangue"). value
+    let soma = Number(mascote) + Number(homenagem) + (2 * Number(leite)) + (30 * Number(kit)) + (15 * Number(suplemento)) + (20 * Number(sangue))
+    document.getElementById("soma").innerHTML = `A soma é ${soma}`
+    }
